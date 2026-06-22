@@ -4,24 +4,27 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Lines To Alignment — Wellbeing Coaching with Chris</title>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
 <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" defer></script>
 </head>
-<body>
+<body class="home-active">
 
 <header class="site-header">
   <div class="header-logo" onclick="showPage('home')">
     <img src="images/logo.jpeg" alt="Lines To Alignment" class="header-logo-img">
   </div>
   <nav>
+    <span class="nav-tagline">Mindset &amp; Transformation Coaching</span>
     <ul class="nav-links">
       <li><a id="nav-home" class="active" onclick="showPage('home')">Home</a></li>
       <li><a id="nav-story" onclick="showPage('story')">My Story</a></li>
       <li><a id="nav-faq" onclick="showPage('faq')">FAQ</a></li>
+      <li><a id="nav-expect" onclick="showPage('expect')">What to Expect</a></li>
       <li><a id="nav-contact" onclick="showPage('contact')">Contact</a></li>
       <li><a id="nav-book" onclick="showPage('book')">Book</a></li>
     </ul>
+    <button class="nav-book-btn" onclick="startJourney()">Book a Free Call</button>
   </nav>
 </header>
 
@@ -31,19 +34,56 @@
       <div class="leaf-bg"></div>
       <div class="bio-portrait">
         <img class="portrait-img" src="images/chris_shirt.jpeg" alt="Chris">
-        <p class="bio-quote">When we align our inner world, everything in our outer world begins to flow.</p>
       </div>
     </div>
     <div class="bio-right">
-      <p class="eyebrow fu d2">Wellbeing Coach</p>
-      <h1 class="bio-name fu d3">Hi, I'm<br><em>Chris</em></h1>
-      <p class="bio-role fu d3">Founder of Lines To Alignment</p>
-      <div class="bio-divider fu d4"></div>
-      <p class="bio-text fu d4">I help people reconnect with what matters most and move through life with more ease, clarity, and joy. Through mindful coaching and somatic awareness, we return to the wellbeing that is already within you.</p>
-      <div class="bio-stats fu d6">
-        <div><div class="stat-num">100%</div><div class="stat-label">Online</div></div>
-        <div><div class="stat-num">1:1</div><div class="stat-label">Personal Support</div></div>
-        <div><div class="stat-num">∞</div><div class="stat-label">Possibilities</div></div>
+      <div class="home-journey">
+
+        <div class="hj-item">
+          <p class="hj-question">Are you tired of playing it small & staying stuck?</p>
+          <div class="hj-line"></div>
+        </div>
+
+        <div class="hj-item">
+          <p class="hj-question">Do you want to break through your self-imposed limitations?</p>
+          <div class="hj-line"></div>
+        </div>
+
+        <div class="hj-item">
+          <p class="hj-question">Do you want to create a life of creativity, freedom & prosperity?</p>
+          <div class="hj-line"></div>
+        </div>
+
+        <div class="hj-item">
+          <p class="hj-question">Are you bored of the status quo & living to fulfil others' expectations?</p>
+          <div class="hj-line"></div>
+        </div>
+
+        <div class="hj-item">
+          <p class="hj-question">Do you want to reclaim your health & break through the noise?</p>
+          <div class="hj-line"></div>
+        </div>
+
+        <div class="hj-item">
+          <p class="hj-question">Do you want to take the lead in your mind & your life?</p>
+          <div class="hj-line"></div>
+        </div>
+
+        <div class="hj-item">
+          <p class="hj-question">Do you want to find your purpose, live it fully & unapologetically?</p>
+          <div class="hj-line"></div>
+        </div>
+
+        <div class="hj-item">
+          <p class="hj-question">Do you want to take full ownership & responsibility for your life?</p>
+        </div>
+
+        <p class="hj-tagline">Learn to be your own authority, master your inner story & claim the life that is yours to live.</p>
+
+        <div class="hj-cta-wrap">
+          <button class="hj-cta" onclick="startJourney()">Begin Your Journey →</button>
+        </div>
+
       </div>
     </div>
   </div>
@@ -217,6 +257,80 @@ The work I now do is rooted not only in study and learning, but in lived experie
   </div>
 </div>
 
+<div class="page" id="page-expect">
+  <div class="book-top">
+    <div class="leaf-bg"></div>
+    <p class="eyebrow fu d1">The Process</p>
+    <h1 class="fu d2">What to <em>Expect</em></h1>
+    <p class="fu d3">A clear framework to guide you from where you are to where you want to be.</p>
+  </div>
+
+  <div class="expect-intro fu d2">
+    <p>The path to lasting change is rarely a straight line, but it always begins with a single step. This programme is built around a clear framework designed to guide you through each stage of your personal development — from understanding where you are now, to actively shaping the life you want to be living. Each phase builds on the last, creating a foundation of self-awareness, clarity, and committed action. Whether you are just beginning your journey or looking to break through a long-standing pattern, this process meets you exactly where you are.</p>
+  </div>
+
+  <div class="expect-journey fu d3">
+    <h2 class="journey-heading">Your Journey</h2>
+    <div class="journey-list">
+
+      <div class="journey-step">
+        <div class="step-marker">
+          <div class="step-circle">1</div>
+          <div class="step-line"></div>
+        </div>
+        <div class="step-content">
+          <h3 class="step-title">Self-Knowledge</h3>
+          <p class="step-desc">Learn about yourself & gain a greater understanding of who you are, what drives you, and what holds you back.</p>
+        </div>
+      </div>
+
+      <div class="journey-step">
+        <div class="step-marker">
+          <div class="step-circle">2</div>
+          <div class="step-line"></div>
+        </div>
+        <div class="step-content">
+          <h3 class="step-title">Clarity</h3>
+          <p class="step-desc">Get clear on your values, your vision for your life & your mission — so that every decision flows from a place of intention.</p>
+        </div>
+      </div>
+
+      <div class="journey-step">
+        <div class="step-marker">
+          <div class="step-circle">3</div>
+          <div class="step-line"></div>
+        </div>
+        <div class="step-content">
+          <h3 class="step-title">Commitment</h3>
+          <p class="step-desc">Choose the best version of yourself & commit to living that — not as a distant goal, but as a daily practice.</p>
+        </div>
+      </div>
+
+      <div class="journey-step">
+        <div class="step-marker">
+          <div class="step-circle">4</div>
+          <div class="step-line"></div>
+        </div>
+        <div class="step-content">
+          <h3 class="step-title">Action</h3>
+          <p class="step-desc">Put everything into place & take steps to create that in reality — moving from insight into lived experience.</p>
+        </div>
+      </div>
+
+      <div class="journey-step">
+        <div class="step-marker">
+          <div class="step-circle">5</div>
+        </div>
+        <div class="step-content">
+          <h3 class="step-title">Awareness</h3>
+          <p class="step-desc">When facing into action, use your awareness to adapt your thoughts & actions based on what you have learnt — so growth compounds over time.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
 <div class="page" id="page-contact">
   <div class="contact-wrap">
 
@@ -254,6 +368,13 @@ The work I now do is rooted not only in study and learning, but in lived experie
           <div class="cinfo-text">
             <strong>Instagram</strong>
             <span><a href="https://instagram.com/linestoalignment" target="_blank" rel="noopener" style="color:inherit;">@linestoalignment</a></span>
+          </div>
+        </div>
+        <div class="cinfo fu d5">
+          <div class="cinfo-dot">📞</div>
+          <div class="cinfo-text">
+            <strong>Phone</strong>
+            <span id="phone-reveal"><button class="reveal-btn" onclick="revealPhone()">Click to reveal</button></span>
           </div>
         </div>
       </div>
@@ -296,54 +417,56 @@ The work I now do is rooted not only in study and learning, but in lived experie
     <p class="fu d3">Choose the container that best fits your current journey. All sessions are held online via secure video call.</p>
   </div>
 
-  <div class="meeting-picker fu d2">
-    <div class="mcard" onclick="openCal('discovery')">
-      <div class="mtag">Free</div>
-      <h3>Discovery Call</h3>
-      <div class="mdur">⏱ 20 minutes</div>
-      <p class="mdesc">A relaxed, no-pressure conversation to see if Lines To Alignment is the right fit for you.</p>
-      <div style="margin-top:1.5rem">
-        <span class="cal-btn">View availability →</span>
+  <div class="book-body">
+    <div class="meeting-picker fu d2">
+      <div class="mcard" onclick="openCal('discovery')">
+        <div class="mtag">Discovery Call</div>
+        <h3>Free</h3>
+        <div class="mdur">⏱ 20 minutes</div>
+        <p class="mdesc">A relaxed, no-pressure conversation to see if Lines To Alignment is the right fit for you.</p>
+        <div style="margin-top:1.5rem">
+          <span class="cal-btn">View availability →</span>
+        </div>
+      </div>
+
+      <div class="mcard" onclick="openCal('foundation')">
+        <div class="mtag">1 Month Foundation</div>
+        <h3>£250</h3>
+        <div class="mdur">⏱ 4 Weekly Calls</div>
+        <p class="mdesc">Designed for new clients wanting to build connection, clarity, and momentum before committing longer term.</p>
+        <div style="margin-top:1.5rem">
+          <span class="cal-btn">View availability →</span>
+        </div>
+      </div>
+
+      <div class="mcard" onclick="openCal('wellbeing')">
+        <div class="mtag">3 Month Container</div>
+        <h3>£600</h3>
+        <div class="mdur">⏱ 12 Weekly Calls</div>
+        <p class="mdesc">Focused on creating deeper shifts in mindset, behaviour, and life direction.</p>
+        <div style="margin-top:1.5rem">
+          <span class="cal-btn">View availability →</span>
+        </div>
+      </div>
+
+      <div class="mcard" onclick="openCal('journey')">
+        <div class="mtag">6 Month Container</div>
+        <h3>£1000</h3>
+        <div class="mdur">⏱ 24 Weekly Calls</div>
+        <p class="mdesc">For those ready to commit to long-term transformation and meaningful change.</p>
+        <div style="margin-top:1.5rem">
+          <span class="cal-btn">View availability →</span>
+        </div>
       </div>
     </div>
 
-    <div class="mcard" onclick="openCal('foundation')">
-      <div class="mtag">1 Month</div>
-      <h3>Foundation</h3>
-      <div class="mdur">⏱ 4 Weekly Calls</div>
-      <p class="mdesc">Designed for new clients wanting to build connection, clarity, and momentum before committing longer term.</p>
-      <div style="margin-top:1.5rem">
-        <span class="cal-btn">View availability →</span>
+    <div id="cal-embed-wrap">
+      <div class="cal-header">
+        <h2 id="cal-title">Choose a time</h2>
+        <button onclick="closeCal()" class="cal-close">✕ Close</button>
       </div>
+      <div id="calendly-embed" style="min-width:280px; height:700px;"></div>
     </div>
-
-    <div class="mcard" onclick="openCal('wellbeing')">
-      <div class="mtag">£300</div>
-      <h3>3 Month Container</h3>
-      <div class="mdur">⏱ 12 Weekly Calls</div>
-      <p class="mdesc">Focused on creating deeper shifts in mindset, behaviour, and life direction.</p>
-      <div style="margin-top:1.5rem">
-        <span class="cal-btn">View availability →</span>
-      </div>
-    </div>
-
-    <div class="mcard" onclick="openCal('journey')">
-      <div class="mtag">£525</div>
-      <h3>6 Month Container</h3>
-      <div class="mdur">⏱ 24 Weekly Calls</div>
-      <p class="mdesc">For those ready to commit to long-term transformation and meaningful change.</p>
-      <div style="margin-top:1.5rem">
-        <span class="cal-btn">View availability →</span>
-      </div>
-    </div>
-  </div>
-
-  <div id="cal-embed-wrap" style="display:none; max-width:1000px; margin: 0 auto; padding: 0 4rem 6rem;">
-    <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:1.5rem;">
-      <h2 style="font-family:'Playfair Display',serif; font-size:1.6rem; font-weight:400; color:var(--forest);" id="cal-title">Choose a time</h2>
-      <button onclick="closeCal()" style="background:none;border:1px solid var(--line);padding:0.5rem 1rem;font-family:'Jost',sans-serif;font-size:0.78rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--muted);cursor:pointer;">✕ Close</button>
-    </div>
-    <div class="calendly-inline-widget" id="calendly-embed" style="min-width:320px; height:700px;"></div>
   </div>
 
   <div class="book-note fu d3">
@@ -352,12 +475,22 @@ The work I now do is rooted not only in study and learning, but in lived experie
 </div>
 
 <script>
+  function revealPhone() {
+    // Store Chris's number reversed to avoid scraping bots
+    // e.g. if number is "07700 123456" enter "654321 00770" below
+    const reversed = '206 33 08 05 70'; 
+    const number = reversed.split('').reverse().join('');
+    document.getElementById('phone-reveal').innerHTML =
+      `<a href="tel:${number.replace(/\s/g,'')}" style="color:inherit">${number}</a>`;
+  }
+
   function toggleFaq(btn) {
     const item = btn.closest('.faq-item');
     item.classList.toggle('open');
   }
 
   function showPage(id) {
+    document.body.classList.toggle('home-active', id === 'home');
     document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
     document.querySelectorAll('.nav-links a').forEach(a => a.classList.remove('active'));
     document.getElementById('page-' + id).classList.add('active');
@@ -369,6 +502,27 @@ The work I now do is rooted not only in study and learning, but in lived experie
     });
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
+
+  function startJourney() {
+    showPage('book');
+    openCal('discovery');
+  }
+
+  // Scroll-reveal for homepage questions
+  (function() {
+    const observer = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('hj-visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.15 });
+
+    document.querySelectorAll('.hj-item, .hj-tagline, .hj-cta-wrap').forEach(function(el) {
+      observer.observe(el);
+    });
+  })();
 
   // ── CALENDLY INTEGRATION ──
   // Calendly username: chrislines96
@@ -393,12 +547,24 @@ The work I now do is rooted not only in study and learning, but in lived experie
     document.getElementById('cal-title').textContent = calTitles[type];
     embed.innerHTML = '';
     wrap.style.display = 'block';
-    Calendly.initInlineWidget({ url: calendlyLinks[type], parentElement: embed });
-    wrap.scrollIntoView({ behavior: 'smooth', block: 'start' });
+
+    document.getElementById('page-book').querySelector('.book-body').classList.add('cal-open');
+
+    function initWidget() {
+      Calendly.initInlineWidget({ url: calendlyLinks[type], parentElement: embed });
+    }
+
+    if (window.Calendly) {
+      initWidget();
+    } else {
+      // Script not yet ready — wait for it
+      document.querySelector('script[src*="calendly"]').addEventListener('load', initWidget, { once: true });
+    }
   }
 
   function closeCal() {
     document.getElementById('cal-embed-wrap').style.display = 'none';
+    document.getElementById('page-book').querySelector('.book-body').classList.remove('cal-open');
   }
 
   function handleContact(e) {
